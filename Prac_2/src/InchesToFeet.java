@@ -8,9 +8,8 @@ public class InchesToFeet
         InchesToFeetInterative in = new InchesToFeetInterative();
         int inchesNum = in.getNum();
         int feet = 12;
-        int inches = 86;
 
-        System.out.println(inches + " inches becomes " + (inches / feet) + " feet and " + (inches % feet) + " inches.");
+        System.out.println(inchesNum + " inches becomes " + (inchesNum / feet) + " feet and " + (inchesNum % feet) + " inches.");
     }
 
 }
